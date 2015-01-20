@@ -13,6 +13,7 @@
 		DC07FB2B1A672DE200C089F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC07FB2A1A672DE200C089F4 /* Images.xcassets */; };
 		DC07FB2E1A672DE200C089F4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC07FB2C1A672DE200C089F4 /* LaunchScreen.xib */; };
 		DC07FB3A1A672DE200C089F4 /* LemonadeStandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC07FB391A672DE200C089F4 /* LemonadeStandTests.swift */; };
+		DC585BED1A69883600A0795A /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC585BEC1A69883600A0795A /* Customer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		DC07FB331A672DE200C089F4 /* LemonadeStandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemonadeStandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC07FB381A672DE200C089F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC07FB391A672DE200C089F4 /* LemonadeStandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonadeStandTests.swift; sourceTree = "<group>"; };
+		DC585BEC1A69883600A0795A /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				DC07FB231A672DE200C089F4 /* AppDelegate.swift */,
 				DC07FB251A672DE200C089F4 /* ViewController.swift */,
+				DC585BEC1A69883600A0795A /* Customer.swift */,
 				DC07FB271A672DE200C089F4 /* Main.storyboard */,
 				DC07FB2A1A672DE200C089F4 /* Images.xcassets */,
 				DC07FB2C1A672DE200C089F4 /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC585BED1A69883600A0795A /* Customer.swift in Sources */,
 				DC07FB261A672DE200C089F4 /* ViewController.swift in Sources */,
 				DC07FB241A672DE200C089F4 /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +409,7 @@
 				DC07FB3F1A672DE200C089F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC07FB401A672DE200C089F4 /* Build configuration list for PBXNativeTarget "LemonadeStandTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				DC07FB421A672DE200C089F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
